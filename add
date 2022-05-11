@@ -1,0 +1,7 @@
+通过environment.yml安装环境后升级pytorch
+
+执行python setup.py build
+执行python setup.py install
+
+将azalea0.1.0-py3.6.egg替换到环境下lib/python3.6/site-packages中导入图形化界面
+将训练好的模型放在engine下，并对其.sh文件修改

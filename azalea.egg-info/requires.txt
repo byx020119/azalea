@@ -1,0 +1,7 @@
+numba
+numpy
+torch
+scipy
+pyyaml
+click
+tensorboardX

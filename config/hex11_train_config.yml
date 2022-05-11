@@ -13,7 +13,7 @@ l2_regularization: 1.e-4
 total_steps: 5000000
 
 # 32 (*64) on alphago, 64 (*64) on alphazero
-batch_size: 128
+batch_size: 64
 
 # c_PUCT
 exploration_coef: 0.5
@@ -27,7 +27,7 @@ exploration_noise_scale: 0.25
 
 # network architecture
 num_blocks: 6
-base_chans: 64
+base_chans: 32
 
 # 1600 in alphago, 800 in alphazero
 simulations: 800
@@ -37,9 +37,9 @@ search_batch_size: 10
 
 ### runtime configuration (no hyperparameters) ###
 
-log_interval: 500
-model_checkpoint_interval: 10000      # 4MB/30mins
-replaybuf_checkpoint_interval: 50000  # 160MB/150mins
+log_interval: 25
+model_checkpoint_interval: 5000      # 4MB/30mins
+replaybuf_checkpoint_interval: 40000 #160MB/150mins
 
 seed: 0xBAD5EED5
 device: 'auto'

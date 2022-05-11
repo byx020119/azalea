@@ -1,0 +1,186 @@
+2022-04-29 09:09:22 azalea 0.1.0
+2022-04-29 09:09:23 Net params: 187082
+2022-04-29 09:09:23 Embedding params: 12
+2022-04-29 09:09:29 Net params: 521034
+2022-04-29 09:09:29 Embedding params: 12
+2022-04-29 09:09:29 loaded model checkpoint from hex11-20180712-3362.policy.pth
+Process SpawnPoolWorker-5:
+Traceback (most recent call last):
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/queues.py", line 337, in get
+    return _ForkingPickler.loads(res)
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/site-packages/torch/multiprocessing/reductions.py", line 119, in rebuild_cuda_tensor
+    event_sync_required)
+RuntimeError: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Process SpawnPoolWorker-2:
+Traceback (most recent call last):
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/queues.py", line 337, in get
+    return _ForkingPickler.loads(res)
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/site-packages/torch/multiprocessing/reductions.py", line 119, in rebuild_cuda_tensor
+    event_sync_required)
+RuntimeError: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Process SpawnPoolWorker-9:
+Traceback (most recent call last):
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/queues.py", line 337, in get
+    return _ForkingPickler.loads(res)
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/site-packages/torch/multiprocessing/reductions.py", line 119, in rebuild_cuda_tensor
+    event_sync_required)
+RuntimeError: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Process SpawnPoolWorker-4:
+Traceback (most recent call last):
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/queues.py", line 337, in get
+    return _ForkingPickler.loads(res)
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/site-packages/torch/multiprocessing/reductions.py", line 119, in rebuild_cuda_tensor
+    event_sync_required)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Process SpawnPoolWorker-11:
+Traceback (most recent call last):
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/queues.py", line 337, in get
+    return _ForkingPickler.loads(res)
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/site-packages/torch/multiprocessing/reductions.py", line 119, in rebuild_cuda_tensor
+    event_sync_required)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Process SpawnPoolWorker-1:
+Traceback (most recent call last):
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/queues.py", line 337, in get
+    return _ForkingPickler.loads(res)
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/site-packages/torch/multiprocessing/reductions.py", line 119, in rebuild_cuda_tensor
+    event_sync_required)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Process SpawnPoolWorker-6:
+Traceback (most recent call last):
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/queues.py", line 337, in get
+    return _ForkingPickler.loads(res)
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/site-packages/torch/multiprocessing/reductions.py", line 119, in rebuild_cuda_tensor
+    event_sync_required)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Process SpawnPoolWorker-7:
+Traceback (most recent call last):
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/queues.py", line 337, in get
+    return _ForkingPickler.loads(res)
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/site-packages/torch/multiprocessing/reductions.py", line 119, in rebuild_cuda_tensor
+    event_sync_required)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Process SpawnPoolWorker-12:
+Traceback (most recent call last):
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/queues.py", line 337, in get
+    return _ForkingPickler.loads(res)
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/site-packages/torch/multiprocessing/reductions.py", line 119, in rebuild_cuda_tensor
+    event_sync_required)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Process SpawnPoolWorker-8:
+Traceback (most recent call last):
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/queues.py", line 337, in get
+    return _ForkingPickler.loads(res)
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/site-packages/torch/multiprocessing/reductions.py", line 119, in rebuild_cuda_tensor
+    event_sync_required)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Process SpawnPoolWorker-10:
+Traceback (most recent call last):
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/queues.py", line 337, in get
+    return _ForkingPickler.loads(res)
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/site-packages/torch/multiprocessing/reductions.py", line 119, in rebuild_cuda_tensor
+    event_sync_required)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Process SpawnPoolWorker-3:
+Traceback (most recent call last):
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/pool.py", line 108, in worker
+    task = get()
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/multiprocessing/queues.py", line 337, in get
+    return _ForkingPickler.loads(res)
+  File "/home/baiyu/miniconda3/envs/azalea_2/lib/python3.6/site-packages/torch/multiprocessing/reductions.py", line 119, in rebuild_cuda_tensor
+    event_sync_required)
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
